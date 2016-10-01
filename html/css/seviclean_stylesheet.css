@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+	yellow: ffca3c
+	blue: 01bbd4
+*/
+
+.nav_menu {
+	position:fixed;
+	text-align: center;
+	top:0px;
+	width:100%;
+	height:75px; 
+	z-index:9999;
+	display: none;
+	background-color:#D0203A;
+}
+
+.navbar-brand 
+{
+    padding-top: 0;
+}
+.navbar-toggle {
+   background-color:#ffca3c !important;
+   border-color: #ffca3c !important;
+}
+
+.navbar{
+	background:#01bbd4;
+	border-color:white;
+	
+}
+.navbar .navbar-brand{
+	color:white;
+}
+
+/* link */
+.navbar .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-collapse{
+	border-top:0px !important;
+ 	box-shadow:none;
+}
+.navbar .navbar-na > li > a:hover,
+.navbar .navbar-na > li > a:focus {
+  text-decoration: none;
+  background-color: #ffca3c;
+}
+
+.navbar .navbar-nav  > .active > a,
+.navbar .navbar-nav  > .active:hover > a,
+.navbar .navbar-nav  > .active:focus > a {
+  font-weight: bold;
+  color: #ffca3c;
+  background-color: #06e0ff;
+}
+.bg{
+	background-image: url("../images/form4.jpg");
+  background-position: center top;
+    	background-repeat: no-repeat;
+		background-size:cover;
+	margin:0;
+  
+
+}
+
+.padding_top{
+	padding-top:80px;
+}
+.padding-text {
+	padding-left: 10px;	
+}
+input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid black;
+    -webkit-appearance: none;
+}
+
+.btn:hover,
+.btn:focus,
+.btn.focus,
+.btn:active,
+.btn.active{
+    background-color: #ffca3c !important;
+	border-color: #ffca3c !important;
+}
+.btn {
+    background-color: #01bbd4;
+	border-color: #01bbd4;
+}
+label{
+	font-size:20px;
+	color: #ffca3c;
+	font-weight:700;
+	text-shadow:1px 1px 0 rgba(0,0,0,.3)
+}
+
+
+
+.footer
+{
+	background-color:#01bbd4;
+	height:50px;
+	
+}
+.footer-font
+{
+	padding-top:15px;
+	color:#ffca3c;
+	font-weight:bold;
+}
+
+h2{
+	border-bottom:dotted;
+	border-bottom-color:#ffca3c;
+	border-width:thick;
+	color:#01bbd4;
+}
+.li-description
+{
+	font-size:18px;
+	color:#333;
+}
+
+ul
+{
+    list-style-type: circle;
+}
+
+blockquote {
+	font-family: Georgia, serif;
+	font-size: 18px;
+	font-style: italic;
+	line-height: none;
+	border: 0;
+	position: relative;
+	color: #383838;
+
+}
+
+.blue-quote:before {
+	content: "\201C";
+	font-size: 80px;
+	position: absolute;
+	left: -25px;
+	top: -25px;
+	color: #01bbd4;
+}
+
+.yellow-quote:before {
+	content: "\201C";
+	font-size: 80px;
+	position: absolute;
+	left: -25px;
+	top: -25px;
+	color: #ffca3c;
+}
+
+
+cite {
+	color: #999999;
+	font-size: 14px;
+	display: block;
+	margin-top: 5px;
+}
+ 
+cite:before {
+	content: "\2014 \2009";
+}
