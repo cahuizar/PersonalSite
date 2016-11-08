@@ -1,6 +1,9 @@
 # PersonalSite
-Developed and hosted personal website using PHP, JavaScript, and JQuery
+## What is used: 
+1. HTML
+2. CSS
+3. Javascript
+4. JQuery
+5. PHP
 
-This is the personal site for cahuizar using PHP, CSS and JScript.
-
-The website will be designed and implemented by Sanjay.
+The website will be designed and implemented by Carlos and Sanjay.
