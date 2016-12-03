@@ -7,4 +7,4 @@
 
 ## Contributors
 1. Carlos
-2. Sanjay
+
