@@ -6,6 +6,7 @@ html, body {
 
 a:focus, a:hover{
     text-decoration: none !important;
+    color: white !important;
 }
 
 .heading{
@@ -22,9 +23,13 @@ a:focus, a:hover{
 .links{
     margin-top: 50px;
 }
+a{
+    padding-right: 2vw;
+    color: rgba(255, 255, 255, 0.8) !important;
+}
 
-@media only screen and (max-width: 40em) { 
+@media only screen and (max-width: 40em) {
     .heading{
         font-size: 50px;
     }
-}   
+}
