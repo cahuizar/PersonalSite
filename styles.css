@@ -69,11 +69,22 @@ a{
     transition: opacity .25s;
 }
 
-@media only screen and (max-width: 40em) {
+/* Mobile */
+@media (max-width: 767px) {
     .heading{
         font-size: 45px;
     }
     .sub-heading{
         font-size: 22px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media (min-width : 768px) and (max-width: 991px)  {
+    .heading{
+        font-size: 80px;
+    }
+    .sub-heading{
+        font-size: 30px;
     }
 }
