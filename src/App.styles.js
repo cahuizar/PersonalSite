@@ -19,10 +19,33 @@ const globalStyles = css`
   body {
     font-family: 'PublicaSans' sans-serif;
     font-size: 1rem;
-    color: #080f19;
+    color: #334680;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
+  }
+
+  #root {
+    padding-top: 4rem;
+    background-color: #f5f6f9;
+    @media (min-width: 576px) {
+      background-color: white;
+    }
+  }
+
+  .primary {
+    color: #334680;
+  }
+  .secondary {
+    color: #c5c9d7;
+  }
+
+  a,
+  a:hover,
+  a:focus,
+  a:active {
+    color: #334680;
+    text-decoration: none;
   }
 `;
 
