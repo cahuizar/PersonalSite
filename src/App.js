@@ -10,7 +10,7 @@ import { Error } from './components/pages/Error';
 function App() {
   return (
     <Router>
-      <Global styles={{ globalStyles }} />
+      <Global styles={globalStyles} />
       <Switch>
         <Route exact path='/' component={Home} />
         <Route component={Error} />
