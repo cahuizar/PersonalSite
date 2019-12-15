@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import 'normalize.css';
+import { Global } from '@emotion/core';
+
+import globalStyles from './App.styles';
+import { Home } from './components/pages/Home';
 
 function App() {
   return (
-    <div className='App'>
-      <h1>Personal Site</h1>
-    </div>
+    <Fragment>
+      <Global styles={globalStyles} />
+      <Home />
+    </Fragment>
   );
 }
 
