@@ -3,7 +3,7 @@ import Container from '../Grid/Container';
 import Row from '../Grid/Row';
 import Col from '../Grid/Col';
 import LeftPanel from '../LeftPanel/LeftPanel';
-import RightPanel from '../Layout/RightPanel';
+import RightPanel from '../RightPanel/RightPanel';
 
 export const Home = () => {
   return (
