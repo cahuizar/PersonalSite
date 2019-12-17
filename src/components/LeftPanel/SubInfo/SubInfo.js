@@ -11,7 +11,9 @@ export const SubInfo = () => {
     <div css={subInfoStyles}>
       <div>
         <InfoItem icon={faEnvelope}>
-          <a href='#'>hire@carloshuizar.com</a>
+          <a href='mailto:hire@carloshuizar.com?subject=Hola'>
+            hire@carloshuizar.com
+          </a>
         </InfoItem>
         <InfoItem icon={faMapMarkerAlt}>Fishers, IN</InfoItem>
         <InfoItem icon={faBuilding}>Full Time</InfoItem>
