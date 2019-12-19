@@ -1,5 +1,7 @@
 import React, { Fragment } from 'react';
 import Section from '../Section/Section';
+import Item from './Item/Item';
+
 
 const RightPanel = () => {
   return (
@@ -16,7 +18,10 @@ const RightPanel = () => {
           eget mauris pharetra et ultrices. Mattis rhoncus urna neque viverra.
         </p>
       </Section>
-      <Section heading='Work Experience'>test</Section>
+      <Section heading='Work Experience'>
+        <Item heading="Software Engineer I" company="Navient" location="Fishers, IN" workingTime="Full Time" date="Dec 16, 2017 - Current"  />
+        <Item heading="Intern - Software Engineer" company="Navient" location="Fishers, IN" workingTime="Part Time" date="Jun 4, 2015 - Dec 15, 2017"  />
+      </Section>
       <Section heading='Education'>test</Section>
     </Fragment>
   );
