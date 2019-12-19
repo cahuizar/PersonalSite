@@ -40,12 +40,14 @@ const globalStyles = css`
     color: #c5c9d7;
   }
 
-  a,
-  a:hover,
-  a:focus,
-  a:active {
+  a {
     color: #334680;
     text-decoration: none;
+    &:hover,
+    &:active,
+    &:focus {
+      color: #538fff;
+    }
   }
 `;
 
