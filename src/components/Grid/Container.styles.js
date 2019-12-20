@@ -6,7 +6,7 @@ const containerStyles = css`
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  max-width: 300px;
+  max-width: 400px;
 
   @media (min-width: 576px) {
     max-width: 540px;
