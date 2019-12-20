@@ -3,26 +3,64 @@ import { css } from '@emotion/core';
 const itemStyles = css`
   border-radius: 10px;
   border: 1px solid #ececff;
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 2em;
-  .section-heading {
-    font-size: 1.04rem;
+  padding: 10px;
+  
+  &:not(:first-of-type) {
+    margin-top: 2.5em;
+    @media (min-width: 576px) {
+      margin-top: 1.5em;
+    }
   }
-  .bottom-row {
-    color: #b2b5bf;
+  
+  .flex-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .first-row {
+    margin-bottom: 1em;
+    .section-heading {
+      font-size: 1.2rem;
+    }
+    .working-time {
+      padding: 5px 10px;
+      background-color: #d7ffe0;
+      border-radius: 10px;
+      white-space: nowrap
+    }
+    .education {
+      color: #b2b5bf;
+      font-size: .8rem;
+      font-weight: bold;
+    }
   }
 
-  .working-time {
-    padding: 5px 10px;
-    background-color: #d7ffe0;
-    border-radius: 10px;
+  .second-row {
+    margin-bottom: 1em;
+    color: #b2b5bf;
+    font-size: .8rem;
+    font-weight: bold;
+    .place-block {
+      min-width: 50%;
+      @media (max-width: 576px) {
+        order: 2;
+        margin-top: 1em;
+      }
+    }
+    .icon {
+      color:#b2b5bf;
+      margin-right: 8px;
+      vertical-align: text-top;
+    }
+    @media (max-width: 576px) {
+      flex-direction: column;
+      align-items: initial;
+    }
   }
 
   @media (min-width: 576px) {
     padding: 0px;
-    padding-bottom: 5px;
+    padding-bottom: 1.5em;
     border: 0px;
     border-radius: 0px;
     border-bottom: 1px solid #ececff;
