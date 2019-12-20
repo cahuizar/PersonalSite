@@ -1,14 +1,17 @@
-/** @jsx jsx */
-import { jsx } from '@emotion/core';
-import sectionSyles from './Section.styles';
+import React from 'react';
+import SectionSyles from './Section.styles';
 
 const Section = ({ heading, children, hideHeadingMobile }) => {
   return (
-    <div css={sectionSyles}>
+    <SectionSyles hideHeadingMobile={hideHeadingMobile}>
       <h2>{heading}</h2>
       {children}
-    </div>
+    </SectionSyles>
   );
+};
+
+Section.defaultProps = {
+  hideHeadingMobile: false
 };
 
 export default Section;
