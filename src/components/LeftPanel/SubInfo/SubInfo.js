@@ -20,12 +20,11 @@ export const SubInfo = () => {
         <InfoItem icon={faMapMarkerAlt}>Fishers, IN</InfoItem>
         <InfoItem icon={faBuilding}>Full Time</InfoItem>
         <InfoItem icon={faUserCircle}>Product Engineering</InfoItem>
-        <div class='social'>
+        <div className='social'>
           <div>
             <a
               href='https://github.com/cahuizar'
               target='_blank'
-              without
               rel='noopener noreferrer'
             >
               <FontAwesomeIcon className='icon' icon={faGithub} />
@@ -35,7 +34,6 @@ export const SubInfo = () => {
             <a
               href='https://www.linkedin.com/in/carlos-huizar-271264117'
               target='_blank'
-              without
               rel='noopener noreferrer'
             >
               <FontAwesomeIcon className='icon' icon={faLinkedin} />
