@@ -17,7 +17,7 @@ const containerStyles = css`
   }
 
   @media (min-width: 992px) {
-    max-width: 960px;
+    max-width: 1260px;
   }
 `;
 

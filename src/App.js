@@ -15,10 +15,10 @@ function App() {
       <Global styles={globalStyles} />
       <Container>
         <Row>
-          <Col xsFull smHalf>
+          <Col sm='4'>
             <LeftPanel />
           </Col>
-          <Col xsFull smHalf>
+          <Col sm='6'>
             <RightPanel />
           </Col>
         </Row>
