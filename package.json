@@ -2,6 +2,7 @@
   "name": "personal-site",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://cahuizar.github.io/",
   "dependencies": {
     "@emotion/core": "^10.0.22",
     "@emotion/styled": "^10.0.23",
@@ -21,9 +22,12 @@
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.15.1",
     "enzyme-to-json": "^3.4.3",
+    "gh-pages": "^2.1.1",
     "jest-emotion": "^10.0.17"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build --branch master",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
