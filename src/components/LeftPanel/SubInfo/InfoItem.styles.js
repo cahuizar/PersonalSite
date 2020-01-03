@@ -11,7 +11,7 @@ const infoItemStyles = css`
   .icon {
     color: #b2b5bf;
     margin-right: 8px;
-    vertical-align: text-top;
+    vertical-align: text-bottom;
   }
 `;
 

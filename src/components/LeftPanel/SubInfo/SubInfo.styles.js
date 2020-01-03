@@ -19,7 +19,6 @@ const subInfoStyles = css`
     }
     .icon {
       font-size: 1.7rem;
-      vertical-align: text-top;
     }
   }
 `;
