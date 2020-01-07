@@ -19,7 +19,7 @@ const RightPanel = () => {
       </Section>
       <Section heading='Work Experience'>
         <Item
-          heading='Software Engineer I'
+          heading='Software Engineer'
           company='Navient'
           location='Fishers, IN'
           workingTime='Full Time'
