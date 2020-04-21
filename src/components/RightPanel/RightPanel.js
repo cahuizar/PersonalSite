@@ -19,11 +19,18 @@ const RightPanel = () => {
       </Section>
       <Section heading='Work Experience'>
         <Item
-          heading='Software Engineer'
+          heading='Software Engineer II'
           company='Navient'
           location='Fishers, IN'
           workingTime='Full Time'
-          date='Dec 16, 2017 - Current'
+          date='Mar 23, 2020 - Current'
+        />
+        <Item
+          heading='Software Engineer I'
+          company='Navient'
+          location='Fishers, IN'
+          workingTime='Full Time'
+          date='Dec 16, 2017 - Mar 22, 2020'
         />
         <Item
           heading='Intern - Software Engineer'
