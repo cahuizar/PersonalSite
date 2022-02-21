@@ -14,16 +14,23 @@ const RightPanel = () => {
           I'm always looking out for any opportunities and am not afraid of
           taking risks for making things better. I have a high regards for team
           building and I work exceptionally well across all key functional
-          areas. Some of which are web development and customer service.
+          areas.
         </p>
       </Section>
       <Section heading='Work Experience'>
+         <Item
+          heading='Sr. Software Engineer'
+          company='Navient'
+          location='Fishers, IN'
+          workingTime='Full Time'
+          date='Sept 3, 2020 - Current'
+          />
         <Item
           heading='Software Engineer II'
           company='Navient'
           location='Fishers, IN'
           workingTime='Full Time'
-          date='Mar 23, 2020 - Current'
+          date='Mar 23, 2020 - Sept 3, 2020'
         />
         <Item
           heading='Software Engineer I'
@@ -37,7 +44,7 @@ const RightPanel = () => {
           company='Navient'
           location='Fishers, IN'
           workingTime='Full Time'
-          date='Jun 4, 2015 - Dec 15, 2017'
+          date='Jun 4, 2016 - Dec 15, 2017'
         />
       </Section>
       <Section heading='Education'>
