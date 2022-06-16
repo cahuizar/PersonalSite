@@ -7,19 +7,13 @@ const RightPanel = () => {
     <Fragment>
       <Section hideHeadingMobile={true} heading='Professional Summary'>
         <p>
-          Software Development is my passion. I am always looking for new
-          challenges, as well as looking to learn something new. Thinking
-          outside of the box is what I do best when it comes to working on
-          projects. I tend go beyond the expectations and attempt to improve it.
-          I'm always looking out for any opportunities and am not afraid of
-          taking risks for making things better. I have a high regards for team
-          building and I work exceptionally well across all key functional
-          areas.
+            Front-End Engineer (tech lead, architect) with 6 years of proven leadership experience and meaningful
+            contributions to teams of varying sizes working with Vue and React and integration with back-end APIs.
         </p>
       </Section>
       <Section heading='Work Experience'>
          <Item
-          heading='Sr. Software Engineer'
+          heading='Senior Software Engineer'
           company='Navient'
           location='Fishers, IN'
           workingTime='Full Time'
@@ -40,7 +34,7 @@ const RightPanel = () => {
           date='Dec 16, 2017 - Mar 22, 2020'
         />
         <Item
-          heading='Intern - Software Engineer'
+          heading='Software Engineer (Intern)'
           company='Navient'
           location='Fishers, IN'
           workingTime='Full Time'

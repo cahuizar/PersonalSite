@@ -10,7 +10,7 @@ export const MainInfo = () => {
         <img src={Profile} alt='Carlos Huizar' />
       </div>
       <h1>Carlos Huizar</h1>
-      <div className='title'>Sr. Software Engineer</div>
+      <div className='title'>Senior Software Engineer</div>
     </div>
   );
 };
