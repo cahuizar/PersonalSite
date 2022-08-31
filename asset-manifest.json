@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cahuizar/PersonalSite/static/css/main.d33dd536.css",
+    "main.js": "/cahuizar/PersonalSite/static/js/main.f689dc89.js",
+    "static/media/profile.jpg": "/cahuizar/PersonalSite/static/media/profile.c78cfe5e3a8dfcf7be11.jpg",
+    "static/media/Carlos-Huizar-Resume.pdf": "/cahuizar/PersonalSite/static/media/Carlos-Huizar-Resume.35389e58ae2a64c1a5d9.pdf",
+    "index.html": "/cahuizar/PersonalSite/index.html",
+    "main.d33dd536.css.map": "/cahuizar/PersonalSite/static/css/main.d33dd536.css.map",
+    "main.f689dc89.js.map": "/cahuizar/PersonalSite/static/js/main.f689dc89.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d33dd536.css",
+    "static/js/main.f689dc89.js"
+  ]
+}
